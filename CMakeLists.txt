@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.1)
+
+# Clones the bob_robotics git submodule and includes the main CMake file. For
+# more details on the BoB build system, see: https://github.com/BrainsOnBoard/bob_robotics/tree/cmake/cmake
+include(bob_robotics.cmake)
+BoB_project(SOURCES program.cc
+            BOB_MODULES common)
