@@ -1,7 +1,8 @@
-// BoB robotics includes
-#include "common/logging.h"
+// Third-party includes
+#include "plog/Log.h"
 
-int main()
+int bobMain(int, char**)
 {
     LOGI << "Hello BoB robotics!";
+    return EXIT_SUCCESS;
 }
