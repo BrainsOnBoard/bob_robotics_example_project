@@ -18,4 +18,4 @@ endif()
 message("BoB robotics path: $ENV{BOB_ROBOTICS_PATH}")
 
 # Load BoB robotics CMake file
-include($ENV{BOB_ROBOTICS_PATH}/cmake/bob_robotics.cmake)
+include($ENV{BOB_ROBOTICS_PATH}/cmake/BoBRobotics.cmake)
